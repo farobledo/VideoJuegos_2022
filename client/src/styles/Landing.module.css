@@ -1,0 +1,57 @@
+body{
+    background-image: url('../resources/images/kratos.jpg');
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.buttonPlay {
+    background: rgb(0, 0, 0);
+    font-size: large;
+    color: rgb(1, 0, 0);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 35px;
+   
+    margin-right: 50rem;
+    cursor: pointer;
+}
+
+
+
+.buttonPlay:hover {
+    color: white;
+    box-shadow: 0 10px 25px rgb(250, 250, 250);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+}
+
+.title {
+     margin-top: 30rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #000000, 0 0 82px #0fa,0 0 92px #000000;
+    padding: 5px;
+}
+
+.description {
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: xx-large;
+}
+

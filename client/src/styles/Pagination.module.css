@@ -1,0 +1,21 @@
+.containerPages {
+  margin: 15px;
+  text-align: center;
+}
+.buttonPage {
+  margin-top: 10px;
+  border-radius: 4.5px;
+  background-color: rgb(128, 0, 0);
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.buttonPage:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 253, 253);
+}
+
+.styles.buttonsGroup {
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+.searchButton {
+    border-radius: 4.5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.searchButton:hover{
+    background-color: rgb(213, 0, 0);
+    color: black;
+}
+.input {
+    height: 26px;
+    border: outset;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+}
